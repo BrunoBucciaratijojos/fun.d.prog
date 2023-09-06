@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 05:50:10 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE4OzIwMjMtMDktMDU7MDU6MjY6NDEgcC4gbS47Mjg0Mg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE4OzIwMjMtMDktMDU7MDU6NTA6MTAgcC4gbS47MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="sangre" type="String" array="False" size=""/>
+            <declare name="direccion" type="String" array="False" size=""/>
+            <declare name="edad" type="String" array="False" size=""/>
+            <output expression="&quot;nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;apellido&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="&quot;sangre&quot;" newline="True"/>
+            <input variable="sangre"/>
+            <output expression="&quot;edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;direccion&quot;" newline="True"/>
+            <input variable="direccion"/>
+        </body>
+    </function>
+</flowgorithm>
