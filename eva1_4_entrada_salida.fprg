@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 05:33:03 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMDktMDg7MDU6MTE6NTcgcC4gbS47MjgzOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMDktMDg7MDU6MzM6MDMgcC4gbS47MTsyOTQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="nodecontrol" type="String" array="False" size=""/>
+            <declare name="carrera" type="String" array="False" size=""/>
+            <declare name="semestre" type="Integer" array="False" size=""/>
+            <output expression="&quot;nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;apellidos&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="&quot;nodecontrol&quot;" newline="True"/>
+            <input variable="nodecontrol"/>
+            <output expression="&quot;carrera&quot;" newline="True"/>
+            <input variable="carrera"/>
+            <output expression="&quot;semestre&quot;" newline="True"/>
+            <input variable="semestre"/>
+        </body>
+    </function>
+</flowgorithm>
