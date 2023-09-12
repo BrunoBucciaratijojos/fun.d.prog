@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gaels"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 11:02:24 p. m."/>
+        <attribute name="created" value="Z2FlbHM7TlNYOzIwMjMtMDktMTE7MTA6NTk6MDQgcC4gbS47MjI0Mg=="/>
+        <attribute name="edited" value="Z2FlbHM7TlNYOzIwMjMtMDktMTE7MTE6MDI6MjQgcC4gbS47MTsyMzQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="val1, val2, suma" type="Integer" array="False" size=""/>
+            <assign variable="val1" expression="10"/>
+            <assign variable="val2" expression="20"/>
+            <output expression="val1" newline="True"/>
+            <output expression="val2" newline="True"/>
+            <assign variable="suma" expression="(val1+val2)"/>
+            <output expression="suma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
