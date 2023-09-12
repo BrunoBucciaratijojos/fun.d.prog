@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-12 06:17:10 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEzOzIwMjMtMDktMTI7MDY6MDE6MzAgcC4gbS47MjgyNg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEzOzIwMjMtMDktMTI7MDY6MTc6MTAgcC4gbS47MTsyOTM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="base" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;cuanto mide la base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;cuanto mide la altura&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="(base * altura )/2"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
